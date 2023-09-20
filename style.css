@@ -5,12 +5,12 @@
 }
 body{
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Inter', sans-serif;
 }
 .main{
     width: 100%;
     max-width: 1325px;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 
 
@@ -21,7 +21,7 @@ nav {
     font-size: 15px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
     align-items: center;
      
 }
@@ -100,6 +100,7 @@ nav div span{
 /***** Section one  ***/
 .section_one{
     display: flex;
+    margin-top: 40px;
 }
 .first_part ul{
     padding-left: 0;
@@ -129,6 +130,7 @@ nav div span{
 .first_part h1{
     width: 608px;
     height: 233px;
+    margin-top: 30px;
     font-size: 64px;
     line-height: 77.5px;
     font-weight: 700;
@@ -177,7 +179,7 @@ nav div span{
     font-weight: 400;
     margin-top: 50px;
     gap: 10px;
-    font-family: 'Poppins', ;
+    font-family: 'Poppins' ;
 }
 .btn1:hover {
 background-color:#B00000;
@@ -195,18 +197,34 @@ color:#FFFFFF;
 .last_part img{
     width: 552px;
     height: 504px;
-    padding-top: 50px;
-    margin-left: 220px;
+    padding-top: 40px;
+    margin-left: 200px;
     
 }
 .last_part .icon1{
+    position: absolute;
     width: 72px;
     height: 72px;
-    margin-top: px;
-    margin-left: 677px;
-    angle: -220 deg;
+    margin-top: 370px;
+    margin-left: 0px;
     
+   
+}
+.last_part .icon2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 110px;
+    margin-left: 737px;
+  
     
+}
+.last_part .icon3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 320px;
+    margin-left: 170px; 
 }
 
 
@@ -282,6 +300,7 @@ color:  #18191F;
     justify-content: center;
 }
 .section_four  h2{
+    align-items: center;
     width: 650px;
     height: 120px;
     
@@ -332,23 +351,45 @@ margin-left: 170px;
     
     display: block;
     background:white;
-    height: 35px;
-    width: 35px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
-    margin-left: 8px;
+    margin-left: 5px;
      
  }
- 
- 
+ .priceheader .spanheader{
+    margin-top: 50px;
+     
+ }
   .spanheader .btn {
-    width: 93px;
-    height: 50px;
-    top: 240px;
-    left: 400px;
+    width: 83px;
+    height: 40px;
+    margin-top: 20px;
     border-radius: 73px;
     color: #B00000;
+}
+.priceheader2 ul li{
+    display: inline-block;
+    margin-top: 100px;
+    padding: 0 80px;
+    width: 83px;
+    height: 40px;
+    font-weight: 600px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color:#000000;
     
 }
+.priceheader2 ul li:hover{
+border-bottom: 4px solid  #B00000;
+width: 130px;
+}
+.priceheader2 ul li.active{
+    border-bottom: 4px solid  #B00000;
+width: 180px;
+}
+
 
 
 /***** Section Five *****/
@@ -356,6 +397,7 @@ margin-left: 170px;
 .section_five{
     display: flex;
     column-gap: 80px;
+    margin-top: 110px;
     justify-content: center;
 }
 .single_price_table{
@@ -440,6 +482,16 @@ color:  #000000;
 /****** Section six ******/
 .section_six{
     display: flex;
+column-gap: 20px;
+}
+
+.div6{
+    box-shadow: 0px 10px 20px 0px #29292A12;
+
+}
+.div7{
+    box-shadow: 0px 10px 20px 0px #29292A12;
+    margin-top: 50px;
 
 }
 .section_six .div6 img{
@@ -449,6 +501,7 @@ margin-left: 60px;
 
 }
 .div6 h2{
+
     width: 445px;
 height: 128px;
  margin-left: 140px;
@@ -493,7 +546,7 @@ margin-left: 140px;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
-    letter-spacing: 0em;
+    margin-top: 40px;
     margin-left: 260px;
     margin-bottom: 10px;
 
@@ -512,7 +565,7 @@ margin-left: 140px;
     width: 180px;
     height: 20px;
     font-family: 'Inter';
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     margin-left: 260px;
@@ -579,6 +632,7 @@ margin-left: 140px;
 /****** Section seven ******/
 .section_seven{
     display: flex;
+    margin-top: 100px;
 }
 
 .divchild1 {
@@ -629,6 +683,10 @@ margin-left: 140px;
     justify-content: center;
     background: #F7FAFE;
 }
+.section_eight div{
+    height: 350px;
+    width: 1100px;
+}
 
 .section_eight h1 {
     width: 1024px;
@@ -655,13 +713,29 @@ margin-left: 140px;
     font-size: 16px;
     border: none;
 }
- 
+.section_eight div .icon3{
+    margin-left: 320px;
+}
+.section_eight div .iconb{
+    
+    margin-top:100px ;
+    float: left;
+    }
+    
+.section_eight div .icon2{
+    margin-top: 100px;
+margin-left: 350px;
+float: right;
+}
+
 
 /****** Footer *********/
+
 .footer{
     display:block;
     justify-content: center;
     background: #B00000;
+    margin-top: 150px;
 }
 
 
