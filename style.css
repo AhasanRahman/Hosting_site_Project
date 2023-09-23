@@ -5,7 +5,8 @@
 }
 body{
     overflow-x: hidden;
-    font-family: 'Poppins', 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .main{
     width: 100%;
@@ -17,12 +18,12 @@ body{
 /**** Navbar ****/
 
 nav {
-    padding: 30px;
+    padding: 30px 0;
     font-size: 15px;
     display: flex;
     justify-content: space-between;
-    width: 95%;
-    align-items: center;
+    width: 100%;
+    
      
 }
 nav div{
@@ -35,7 +36,7 @@ nav div{
 nav img {
     width: 90px;
     height: 60px;
-    margin-left: px;
+    margin-left: 0;
     /* margin-top: 41px; */
 
    
@@ -48,7 +49,7 @@ nav .img2{
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0px 1px;
     
 
 
@@ -56,7 +57,8 @@ nav ul li {
 
 nav div a {
 
-    padding:  10px 20px;
+    padding: 10px 15px;
+    margin-left: 60px;
     text-decoration: none;
      /* width: 96px; */
      /* height: 23px; */
@@ -98,6 +100,7 @@ nav div span{
 
 
 /***** Section one  ***/
+
 .section_one{
     display: flex;
     margin-top: 40px;
@@ -142,7 +145,7 @@ nav div span{
 .first_part p{
     width: 448px;
     height: 56px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 5%;
@@ -156,29 +159,30 @@ nav div span{
     padding: 14px;
     border-radius: 8px;
     /* color: #000000; */
-    font-size: 20px;
     /* border: 1px solid #000000; */
     background:#B00000;
     color:#FFFFFF ;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     margin-top: 50px;
     gap: 10px;
     font-family: 'Poppins', ;
     border: none;
+    box-shadow: 0px 0px 64px 0px #B000004D;
+
 }
 .btn2 {
     min-width: 160px;
-    padding: 14px;
+    padding: 12px;
     border-radius: 8px;
     color: #000000;
-    font-size: 20px;
     border: 1px solid #000000;
     background-color:#FFFFFF;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     margin-top: 50px;
-    gap: 10px;
+    gap: px;
+    margin-left: 25px;
     font-family: 'Poppins' ;
 }
 .btn1:hover {
@@ -205,8 +209,8 @@ color:#FFFFFF;
     position: absolute;
     width: 72px;
     height: 72px;
-    margin-top: 370px;
-    margin-left: 0px;
+    margin-top: 380px;
+    margin-left: -45px;
     
    
 }
@@ -240,7 +244,7 @@ color:#FFFFFF;
 .section_two .left h2{
 width: 594px;
 height: 64px;
-font-family: 'inter';
+font-family: 'Inter', sans-serif;
 font-weight: 800;
 font-size: 48px;
 line-height: 64px;
@@ -251,7 +255,7 @@ color:  #18191F;
 .section_two .left p{
     width: 573px;
     height: 224px;
-    font-family: 'inter';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -261,15 +265,16 @@ color:  #18191F;
     width: 140px;
     height: 45px;
     padding-top: 60px;
-    padding-left: 80px;
+    padding-left: 83px;
 }
 
 /******** Section Three ******/
 
 .section_three{
     display: flex;
-    column-gap: 50px;
+    column-gap: 70px;
     text-align: center;
+    padding-left: 35px;
     padding-top: 40px;
 }
 .section_three div h2{
@@ -300,7 +305,7 @@ color:  #18191F;
     justify-content: center;
 }
 .section_four  h2{
-    align-items: center;
+    text-align: center;
     width: 650px;
     height: 120px;
     
@@ -342,8 +347,7 @@ margin-left: 170px;
     height: 30px;
     width: 60px;
     border-radius: 20px;
-    border: 0;
-    outline: 0;
+    border: none;
     cursor: pointer;
    
  }
@@ -367,6 +371,22 @@ margin-left: 170px;
     margin-top: 20px;
     border-radius: 73px;
     color: #B00000;
+}
+.priceheader .discount{
+    width: 87px;
+    height: 24px;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 9px;
+    border-radius: 8px;
+    padding: 5px;
+    padding-top: px;
+    margin-left: 17px;
+    text-align: center;
+    color:   #000000;
+    background: #FFE87A;
+
 }
 .priceheader2 ul li{
     display: inline-block;
@@ -459,7 +479,7 @@ border: 2px solid black;
     height: 24px;
     left: 48px;
     
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-size: 16px;
 font-weight: 600;
 line-height: 24px;
@@ -479,79 +499,125 @@ margin-left: 3.29px;
 color:  #000000;
     
 }
+
 /****** Section six ******/
+
 .section_six{
     display: flex;
-column-gap: 20px;
+column-gap: 30px;
 }
 
 .div6{
+    display: inline-block;
+}
+
+.div6child1{
+    position:;
+    width: Fixed (445px);
+    height: Hug (168px);
+    top: 46px;
+    margin-left: 159px;
+    
+    
+}
+
+.div6child2{
+    width: 350px;
+    height: 458px;
+    border-radius: 8px;
+    margin-left: 350px;
     box-shadow: 0px 10px 20px 0px #29292A12;
+    align-items: center;
+    justify-content: center;
+    
+
 
 }
+
 .div7{
-    box-shadow: 0px 10px 20px 0px #29292A12;
-    margin-top: 50px;
+    
+    margin-top: 140px;
 
 }
-.section_six .div6 img{
+
+.div7child1{
+    box-shadow: 0px 10px 20px 0px #29292A12;
+    width:445px ;
+    height: 360px;
+    border-radius: 8px;
+    
+}
+.div7child2{
+    box-shadow: 0px 10px 20px 0px #29292A12;
+    width:350px;
+    height: 276px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.div6child1 img{
     width: 142px;
 height: 120px;
-margin-left: 60px;
+margin-right:0px;
+
 
 }
-.div6 h2{
+.div6child1 h2{
+    position: ;
 
     width: 445px;
 height: 128px;
- margin-left: 140px;
-font-family: 'Inter';
+ margin-left: 40px;
+font-family: 'Inter', sans-serif;
 font-size: 48px;
 font-weight: 800;
 line-height: 64px;
 text-align: left;
+ 
 color:  #18191F;
 
 }
-.div6 p {
+ .div6child1 p {
     width: 445px;
 height: 32px;
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 32px;
 text-align: left;
-margin-left: 140px;
+margin-left: 45px;
+color: #18191F;
+
 }
-.div6 .img2{
+.div6child2 .img2{
     width: 120px;
     height: 120px;
-    padding-left: 200px;
+    margin-left: 65px;
 }
-.div6 span p {
+.div6child2 span p {
     width: 254px;
     height: 152px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
     margin-top: 1px;
-    margin-left: 260px;
+    margin-left: 60px;
     color: #000000;
 }
-.div6 h3 {
+.div6child2 h3 {
     width: 101px;
     height: 28px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
     margin-top: 40px;
-    margin-left: 260px;
+    margin-left: 60px;
     margin-bottom: 10px;
 
 }
-.div6 span {
+.div6child2 span {
     width: 127px;
     height: 24px;
     font-family:' inter';
@@ -561,75 +627,111 @@ margin-left: 140px;
     color: #969BAB;
 
 }
-.div6 h4 {
+.div6child2 h4 {
     width: 180px;
     height: 20px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    margin-left: 260px;
+    margin-left: 60px;
     color: #969BAB;
 
 }
-.div7 img {
+.div7child1 img {
     width: 78px;
     height: 50px;
-    margin-top: 200px;
-    margin-left: 154px;
+    margin-top: 50px;
+    margin-left: 54px;
 
 }
 
-.div7 p {
+.div7child1 p {
     width: 349px;
     height: 146px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
-    margin-left: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
-.div7 h3 {
-    width: 164px;
+.div7child1 h3 {
+    width: 114px;
     height: 28px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
-    margin-left: 145px;
+    margin-left: 50px;
     margin-top: 20px;
+    color: #18191F;
+
 
 }
 
-.div7 h4 {
-    width: 260px;
+.div7child1 h4 {
+    width: 72px;
     height: 24px;
     font-family:' Inter';
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
     color: #969BAB;
-    margin-left: 145px;
+    margin-left: 50px;
 }
 
-.div7 .img2 {
+.div7child2 .img2 {
     width: 120px;
-    height: 83px;
+    height: 63px;
     margin-top: 41px;
-    margin-left: 155px;
+    margin-left: 50px;
 
 }
-.div7 span p{
+.div7child2 p{
     width: 254px;
     height: 64px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
+    margin-left: 50px;
     color:  #18191F;
 }
+.div7child2 h3{
+width: 131px;
+height: 28px;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+color: #18191F;
+margin-top: 10px;
+margin-left: 50px;
+
+}
+.div7child2 h4{
+width: 211px;
+height: 24px;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+margin-left: 50px;
+color: #969BAB;
+
+}
+/* .div7child1 .imgcomma{
+    width: 16px;
+    height: 14px;
+    margin-top: 25px;
+    margin-left: 10px;
+} */
+
+
 /****** Section seven ******/
+
 .section_seven{
     display: flex;
     margin-top: 100px;
@@ -650,7 +752,7 @@ margin-left: 140px;
 .divchild1 h2 {
     width: 445px;
     height: 128px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 800;
     line-height: 64px;
@@ -662,7 +764,7 @@ margin-left: 140px;
 .divchild1 p {
     width: 445px;
     height: 64px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -684,7 +786,7 @@ margin-left: 140px;
     background: #F7FAFE;
 }
 .section_eight div{
-    height: 350px;
+    height: 440px;
     width: 1100px;
 }
 
@@ -770,7 +872,7 @@ float: right;
     margin-left: px;
     color: #E6E6E6;
     font-size: 16px;
-    font-family: 'inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 32px;
 }
@@ -781,7 +883,7 @@ float: right;
     top: px;
     margin-left: 0px;
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -792,7 +894,7 @@ float: right;
 .divfooter2 p {
     width: 117px;
     height: 32px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
@@ -801,9 +903,9 @@ float: right;
 }
 
 .divfooter3 h4 {
-    width: 62px;
+    width: 65px;
     height: 24px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -812,9 +914,9 @@ float: right;
 }
 
 .divfooter3 p {
-    width: 127px;
+    width: 147px;
     height: 32px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
@@ -825,7 +927,7 @@ float: right;
 .divfooter4 h4 {
     width: 62px;
     height: 24px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -835,7 +937,7 @@ float: right;
 .divfooter4 p {
     width: 117px;
     height: 32px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
@@ -846,7 +948,7 @@ float: right;
 .divfooter5 h4 {
     width: 62px;
     height: 24px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -866,7 +968,7 @@ float: right;
 .lastdiv{
     width: 400px;
     height: 32px;
-    font-family: 'inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
