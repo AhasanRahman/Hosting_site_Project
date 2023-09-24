@@ -12,13 +12,7 @@
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-         
- 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +23,7 @@
                 <a class="active" href="">Our Services</a>
             </div>
             <div>
-                <ul>
+                <ul class="nav_middle">
 
                     <li><a href="">About</a></li>
                     <li><a href="">Blog&News</a></li>
@@ -38,7 +32,7 @@
                 </ul>
             </div>
             <div>
-                <a href="">Account</a>
+                <a class="account" href="">Account</a>
                 <img class="img2" src="image/Vector.png">
                 <span>+23490673</span>
             </div>           
@@ -49,8 +43,9 @@
                 <ul>
                     <li class="active">Hosting</li>
                     <li>Domain</li>
-                    <li>SEO</li>
                     <li>Email</li>
+                    <li>SEO</li>
+                     
                 </ul>
                 <h1>Premium Web Hosting for Your Website</h1>
                 <p>Blazing fast web hosting for individuals and businesses of all
@@ -217,7 +212,6 @@
 
                 </div>
                
-               
             </div>
 
             <div class="div7">
@@ -311,6 +305,12 @@
 
             </div>         
         </footer>
+        <script>
+            var btn = document.getElementsByClassName("btn");
+            function toggleBtn(){
+                btn.classList.toggle("active");
+            }
+        </script>
 </body>
 
 </html>
