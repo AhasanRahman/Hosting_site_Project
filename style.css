@@ -12,6 +12,7 @@ body{
     max-width: 1325px;
     margin: 0 auto ;
 }
+/****** Responsive*******/
 
 
 /**** Navbar ****/
@@ -43,7 +44,6 @@ nav .img2{
     height: 20px;
     margin-right: 8px;
     margin-left: 15px;
-
 }
 
 nav ul li {
@@ -58,15 +58,12 @@ nav div a {
     padding: 10px 15px;
     margin-left: 60px;
     text-decoration: none;
-     
-     /* height: 23px; */
     font-size: 15px;
     color: #000000;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    /* line-height: 25px; */
-
 }
+
 nav div a:hover{
          
     /* border-bottom: 2px solid #B00000; */
@@ -94,9 +91,6 @@ nav div a:hover{
         padding: 0 20px;
         border-right: 1px solid  #DAD8D8;
 
-        /* height: 3px;
-        width: 80px; */
-        
       }
 
 
@@ -104,26 +98,20 @@ nav ul li a {
     text-decoration: none;
     font-size: 15px;
     color: #000000;
-    /* margin-left: 10px;
-    margin-top: 20px; */
 }
+
 nav div span{
-    margin-top: px;
-    width: px;
-    height: px;
     font-family: 'poppins',sans-serif;
     font-size: 16px;
     font-weight: 600;
-    /* margin-left: 10px; */
     color: #000000;
-
 }
+
 .nav_middle{
 
     margin-left: 0px ;  
   
 }
-
 
 /***** Section one  ***/
 
@@ -136,9 +124,6 @@ nav div span{
 
     /* border-bottom: 2px solid #D6D4D4E0; */
     display:inline-block ;
-    /* width: 150px;
-    height: 150px;
-    text-align:center; */
     border-bottom: 2px solid;
     border-image:   linear-gradient(to right,  #B00000 20%, #E5E5E5 10%  )2;
 }
@@ -155,19 +140,11 @@ nav div span{
     
 }
 
- /* .first_part ul li:hover{
-    color: #B00000;
-    border-bottom: 1px solid #B00000;
-} */
 
 .first_part ul li.active{
     color: #B00000; 
     /* border-bottom: 1px solid #B00000; */
 } 
-
-.first_part ul li{
-
-}
 
 .first_part h1{
     width: 608px;
@@ -197,8 +174,6 @@ nav div span{
     min-width: 160px;
     padding: 14px;
     border-radius: 8px;
-    /* color: #000000; */
-    /* border: 1px solid #000000; */
     background:#B00000;
     color:#FFFFFF ;
     font-size: 12px;
@@ -405,15 +380,6 @@ margin-left: 170px;
      
  }
  
- /* button span {
-    display: block;
-    background:gray;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    margin-left: 2px;
-    transition: background 0.5s, margin-left 0.5s;
-} */
 
  .priceheader .spanheader{
     margin-top: 50px;
@@ -473,8 +439,6 @@ width: 130px; */
 width: 180px; */
 
 }
-
-
 
 /***** Section Five *****/
 
@@ -785,14 +749,7 @@ margin-left: 50px;
 color: #969BAB;
 
 }
-/* .div7child1 .imgcomma{
-    width: 16px;
-    height: 14px;
-    margin-top: 25px;
-    margin-left: 10px;
-} */
-
-
+ 
 /****** Section seven ******/
 
 .section_seven{
@@ -911,11 +868,7 @@ color: #969BAB;
 .fmain {
     position: relative;
     display: flex;
-    /* height: 100%; */
-    
-    /* width: 1750px; */
-    /* margin-left: 40px; */
-
+   
 }
 
 .fmain div {
