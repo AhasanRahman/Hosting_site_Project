@@ -66,7 +66,7 @@ nav div a {
 
 nav div a:hover{
          
-    /* border-bottom: 2px solid #B00000; */
+    border-bottom: 2px solid #B00000;
        
       }
 
@@ -591,7 +591,6 @@ column-gap: 30px;
 height: 120px;
 margin-right:0px;
 
-
 }
 .div6child1 h2{
     width: 445px;
@@ -645,13 +644,13 @@ color: #18191F;
 
 }
 .div6child2 span {
-    width: 127px;
+    /* width: 127px;
     height: 24px;
     font-family:'inter',sans-serif;
     font-weight: 500px;
     font-size: 18px;
     line-height: 24px;
-    color: #969BAB;
+    color: #969BAB; */
 
 }
 .div6child2 h4 {
@@ -872,17 +871,17 @@ color: #969BAB;
 }
 
 .fmain div {
-    padding: 110px;
+    padding: 80px;
         
 }
 
-/* .section6 img {
+.divfooter1 img {
     padding: px;
     width: 120px;
     height: 80px;
     margin-top: px;
     margin-left: 1px;
-} */
+}
 
 .divfooter1 p {
     width: 296px;
@@ -903,7 +902,6 @@ color: #969BAB;
     font-weight: 700;
     line-height: 24px;
     margin-left: 5px;
-
 }
 
 .divfooter2 p {
@@ -994,5 +992,6 @@ color: #969BAB;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    margin: 0 auto;    
 }
