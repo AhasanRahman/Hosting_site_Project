@@ -66,7 +66,7 @@ nav div span{
     margin-top: 30px;
     font-size: 30px;
     line-height: 30px;
-    font-weight: 300; 
+    font-weight: 600; 
     margin-left: 10px;
 }
 .first_part p{
@@ -222,13 +222,11 @@ padding-top: 40px;
     padding: 20px;
     
 }
-.section_four div .spanheader {
-    width: px;
+ .spanheader {
     height: 25px;
     font-size: 18px;
     line-height: 18px;
-    font-weight: 400;
-    
+    font-weight: 400; 
     margin-top: 250px;
     margin-left: 170px;
     
@@ -262,8 +260,9 @@ padding-top: 40px;
     .priceheader2 ul {
         border-bottom: 2px solid;
         border-image:   linear-gradient(to right,  #B00000 50%, #E5E5E5 50%  )2;
-    
+     
     }
+
     /* *******section five***** */
 
     .section_five{
@@ -340,6 +339,7 @@ padding-top: 40px;
     margin-right: 5px;
         
     }
+
     /****** Section six ******/
     .section_six{
         display: flex;
@@ -514,6 +514,7 @@ padding-top: 40px;
         margin-left: 20px;
         
         }
+
  /****** Section seven ******/
 
 .section_seven{
@@ -563,7 +564,7 @@ padding-top: 40px;
 }
 .section_eight div{
     height: 270px;
-    width: 490px;
+    width: 590px;
 }
 .section_eight h1 {
     width: 400px;
@@ -598,12 +599,13 @@ padding-top: 40px;
 .section_eight div .icon2{
     margin-top: 1px;
   margin-right: -28px;
+  height: 60px;
  
 }
+
 /****** Footer *********/
 
 .footer{
-    display:;
     margin-top: 50px;
     width: 600px;
 }
