@@ -1,87 +1,89 @@
+/* medium devices (laptops/desktops, 901px and up) */
+ 
 nav {
-    padding: 15px 0;
-    font-size: 8px;
+    padding: 20px 0;
+    font-size: 15px;
     display: flex;
     justify-content: space-around;
     width: 100%; 
 }
 nav div a {
 
-    padding: 8px 5px;
+    padding: 10px 15px;
     margin-left: 15px;
   
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 350;
 }
 nav ul li a {
-    font-size: 12px;  
+    font-size: 18px;  
 }
 nav img {
-    width: 70px;
-    height: 50px;
-    margin-left: 10px;
+    width: 80px;
+    height: 60px;
+    margin-left: 20px;
  
 }
 nav div span{
-    font-size: 12px;
-    font-weight:300;
+    font-size: 16px;
+    font-weight:400;
 }
 
 /* ******section one****  */
  
 .first_part ul{
-    margin-left: 20px;
+    margin-left: 70px;
 }
    .first_part h1{
-    width: 380px;
+    width: 390px;
     height: 160px;
     margin-top: 30px;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 50px;
     font-weight: 700;
     margin-left: 20px;
     
 
 }
 .first_part p{
-    width: 300px;
+    width: 400px;
     height: 40px;
    
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 350;
     line-height: 28px;
     margin-top: 20px;
     margin-left: 20px;
 
 }   
 .btn1 {
-    padding: 12px;
-    font-size: 12px; 
+    padding: 14px;
+    font-size: 14px; 
     margin-left: 20px;
     
 }
 .btn2 {
     
-    padding: 10px;
-    font-size: 12px;
+    padding: 13px;
+    font-size: 14px;
     margin-left: 20px;
    
 }
 .last_part img{
-     width: 260px; 
-    height: 254px; 
-     
-    padding-top: 30px;
-    margin-left: -50px;
+    width: 380px; 
+   height: 350px; 
     
-      
+   padding-top: 40px;
+   margin-left: 50px;
+   
+     
 }
 .last_part .icon1{
   
-    width: 52px;
-    height: 52px;
-    margin-top: 175px;
-    margin-left: -35px;
+    width: 60px;
+    height: 60px;
+    margin-top: 270px;
+    margin-left: -30px;
      
 }
 .last_part .icon2{
@@ -89,7 +91,7 @@ nav div span{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    margin-left: 185px;
+    margin-left: 410px;
   
     
 }
@@ -97,45 +99,45 @@ nav div span{
    
     width: 40px;
     height: 40px;
-    margin-top: 200px;
-    margin-left: -70px; 
+    margin-top: 230px;
+    margin-left: 40px; 
 }
-
-/* ******section two**** */
 
 .section_two{
     display: flex;
 }
 .section_two .left h2{
-    width: 400px;
+    width: 460px;
     height: 40px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 30px;
-    padding-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;
+    padding-top: 65px;
      margin-left: 20px;
     }
     .section_two .left p{
-        width: 250px;
-        margin-top: 15px;
-        height: 134px;
+        width: 420px;
+        margin-top: 20px;
+        height: 144px;
         font-size: 16px;
         font-weight: 170;
         line-height: 26px;
         margin-left: 20px;
         
     }
-    .section_two .right img{
-         
-        justify-content: space-between;
-        align-items: center;
 
-        width: 75px;
-        height: 47px;
-        padding-top: 30px;
-        padding-left: 0px;
-    }
+.section_two .right img{
+     
+    justify-content: space-between;
+    align-items: center;
 
+    width: 85px;
+    height: 55px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding: 12px;
+    margin-left: 0px;
+}
 
 /* ******section three **** */
 
@@ -149,21 +151,20 @@ nav div span{
 }
 
 .section_three div h2{
-    width: 130px;
-    height: 20px;
-    
-    font-weight: 300;
-    font-size: 12px;
+    width: 150px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 20px;
     
 }
 .section_three div p{
     margin-top: 20px;
-    width: 122px;
-    height: 42px;
+    width: 142px;
+    height: 52px;
     font-weight: 150;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 15px;
     margin-left: 10px;
      
 }
@@ -175,12 +176,12 @@ nav div span{
     justify-content: center;
 }
 .section_four  h2{
-    width: 500px;
-    height: 100px;
+    width: 520px;
+    height: 120px;
     margin-left: 120px;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
     margin-top: 80px;
         
 }
@@ -208,9 +209,9 @@ nav div span{
     .priceheader2 ul li{
         margin-top: 100px;
         padding: 0 80px;
-        width: 53px;
+        width: 73px;
         height: 40px;
-        font-weight: 300px;
+        font-weight: 400px;
         font-size: 24px;
         line-height: 40px;
         margin-left: 50px;
@@ -224,54 +225,54 @@ nav div span{
      }
      .btn span{
     
-        display: ;
+        display:block ;
         height: 30px;
         width: 30px;
         border-radius: 50%;
         margin-left: 5px;   
          
      }
-     /* *******section five***** */
+   /* *******section five***** */
 
      .section_five{
         display: flex;
-        column-gap: 15px;
-        margin-top: 20px;
+        column-gap: 30px;
+        margin-top: 28px;
         justify-content: center;
     }
     .single_price_table{
         border:2px solid #ebebeb;
         border-radius: 10px;
-        width: 175px;
-        height: 500px;
+        width: 250px;
+        height: 620px;
     
     }
     .single_price_table h2{
-        width: 35px;
+        width: 55px;
         height: 25px;
         
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 25px;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-left: 34px;
     text-align: center;
      
     }
     .single_price_table p{
-        width: 100px;
+        width: 180px;
         height: 54px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 18px;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-left: 35px;
     
     }
     .single_price_table h1{
         width: 32px;
     height: 32px;
-    margin-top: 65px;
+    margin-top: 45px;
     margin-left: 35px;
      
     font-size: 24px;
@@ -281,90 +282,93 @@ nav div span{
     
     }
     .single_price_table button{
-        width: 100px;
-    height: 20px;
+        width: 135px;
+    height: 38px;
     margin-left: 35px;
     border-radius: 5px;
     border: 2px;
     border: 1px solid black;  
-    font-size: 11px;
+    font-size: 14px;
     
     }
     .single_price_table span p{
-        width: 120px;
-        height: 12px;
-        left: 38px;
-    font-size: 10px;
+        width: 170px;
+        height: 19px;
+        margin-left: 20px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     }
     .single_price_table span i{
-        width: 24px;
-        height: 24px;
+        
+        height: 27px;
         padding: 7px, 3px, 4px, 3px;
-        width: 12px;
-    height: 12px;
-    margin-right: 5px;
+        width: 17px;
+        margin-left: 10px;
+     margin-right: 12px;
         
     }
 
-      
-     /****** Section six ******/
+    /****** Section six ******/
 
-     .section_six{
+    .section_six{
         display: flex;
-    column-gap: 5px;
+    column-gap: 7px;
     }
+    .div6{
+        display: inline-block;
+        width: 420px;
+    }
+    
 
     .div6child1{
-        width: Fixed (245px);
+        width: Fixed (285px);
         height: Hug (100px);
         margin-left: 20px;
          
     }
     .div6child1 img{
-        width: 45px;
-    height: 40px;
+        width: 75px;
+    height: 60px;
     margin-left:50px;
     
     }
     .div6child1 h2{
-        width: 245px;
-    height: 40px;
+        width: 265px;
+    height: 48px;
      margin-left: 60px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 800;
-    line-height: 30px;
+    line-height: 34px;
     
     }
      .div6child1 p {
         width: 245px;
     height: 32px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 16px;
     margin-left: 60px;
-    margin-top: 15px;
+    margin-top: 25px;
     
     
     }
-
     .div6child2{
-        width: 260px;
-        height: 330px;
+        width: 340px;
+        height: 360px;
         border-radius: 8px;
         margin-left: 60px;
         box-shadow: 0px 10px 20px 0px #29292A12;
     }
     .div6child2 .img2{
-        width: 60px;
-        height:60px;
+        width: 80px;
+        height:70px;
         margin-left: 35px;
     }
     .div6child2 span p {
-        width: 170px;
+        width: 220px;
         height: 68px;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 22px;
         margin-top: 1px;
@@ -375,10 +379,10 @@ nav div span{
         width: 101px;
         height: 28px;
         font-family: 'Inter', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 28px;
-        margin-top: 90px;
+        margin-top: 120px;
         margin-left: 30px;
         margin-bottom: 10px;
     
@@ -386,7 +390,7 @@ nav div span{
     .div6child2 h4 {
         width: 180px;
         height: 20px; 
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         margin-left: 30px;
@@ -394,44 +398,44 @@ nav div span{
     }
     .div7{
     
-        margin-top: 40px;
+        margin-top: 30px;
     
     }
     .div7child1{
         box-shadow: 0px 10px 20px 0px #29292A12;
-        width:260px ;
-        height: 285px;
+        width:390px ;
+        height: 300px;
         border-radius: 8px;
         
     }
     .div7child2{
         box-shadow: 0px 10px 20px 0px #29292A12;
-        width:240px;
+        width:340px;
         height: 276px;
         border-radius: 8px;
         margin-top: 20px;
     }
 
     .div7child1 img {
-        width: 50px;
-        height: 30px;
+        width: 80px;
+        height: 40px;
         margin-top: 20px;
         margin-left: 24px;
     
     }
     .div7child1 p {
-        width: 170px;
+        width: 220px;
         height: 146px;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 18px;
         margin-top: 20px;
         margin-left: 20px;
     }
     .div7child1 h3 {
-        width: 114px;
+        width: 154px;
         height: 28px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 28px;
         margin-left: 20px;
@@ -442,27 +446,28 @@ nav div span{
     .div7child1 h4 {
         width: 72px;
         height: 24px;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 24px;
         margin-left: 20px;
     }
+    
     .div7child2{
-        height: 195px;
+        height: 230px;
     }
 
     .div7child2 .img2 {
-        width: 80;
-        height: 53px;
+        width: 70;
+        height: 60px;
         margin-top: 10px;
         margin-left: 20px;
     
     }
     .div7child2 p{
-        width: 170px;
+        width: 190px;
         height: 64px;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 18px;
         margin-left: 20px;
 
@@ -471,116 +476,114 @@ nav div span{
         width: 131px;
         height: 28px;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 28px;
         margin-top: 0px;
         margin-left: 20px;
         
         }
         .div7child2 h4{
-        width: 211px;
+        width: 241px;
         height: 24px;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
         margin-left: 20px;
         
         }
 
-     /****** Section seven ******/
-         .section_seven{
-            display: flex;
-            margin-top: 30px;
-        }
-        .divchild1 {
-            width: 290px;
-            height: 180px;
-           
-        }
-        
-        .divchild2 {
-            width: 300px;
-            height: 180px;
-             
-        }
-        .divchild1 h2 {
-            width: 190px;
-            height: 38px;
-            font-size: 14px;
-            font-weight:800;
-            line-height: 20px;
-            margin-left: 30px;
-        }
-        
-        .divchild1 p {
-            width: 180px;
-            height: 34px;
-            font-size: 12px;
-            font-weight: 400;
-            line-height: 22px;
-            margin-left: 30px;
-        }
-        .divchild2 img {
-            margin-left: 10px;
-            height:80px ;
-            width:86px ;
-        }
-        
+ /****** Section seven ******/
+ .section_seven{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.divchild1 {
+    width: 430px;
+    height: 200px;
+   
+}
 
+.divchild2 {
+    width: 420px;
+    height: 180px;
+     
+}
+.divchild1 h2 {
+    width: 300px;
+    height: 42px;
+    font-size: 16px;
+    font-weight:800;
+    line-height: 25px;
+    margin-left: 30px;
+}
+
+.divchild1 p {
+    width: 270px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 30px;
+}
+.divchild2 img {
+    margin-left: 10px;
+    height:90px ;
+    width:86px ;
+}
 /****** Section eight ******/
 
 .section_eight{
     display: flex;
-    justify-content: center;
+    justify-content: center
   
 }
 .section_eight div{
-    height: 270px;
-    width: 590px;
+    height: 380px;
+    width: 1000px;
 }
 .section_eight h1 {
-    width: 400px;
+    width: 520px;
     height: 176px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 44px;
     margin: 0 auto;
+    margin-top: 20px;
    
 }
 .section_eight button {
-    width: 108px;
-    height: 28px;
-    margin-top: 0px;
-    margin-left: 176px;
+    width: 145px;
+    height: 45px;
+  margin-left: 380px;
     /* padding: 12px, 16px, 11px, 16px; */
     border-radius: 8px;
-    font-size: 10px;
-    margin-bottom: 90px;
+    font-size: 12px;
+      
     
 }
 .section_eight div .icon3{
-    margin-left: 190px;
+    margin-left: 330px;
 }
 .section_eight div .iconb{
 
-    margin-top:15px ;                                                                                                                                                                                                                                                                                             
-    margin-left: -30px;
+    margin-top:80px ;                                                                                                                                                                                                                                                                                             
+    margin-left: 0px;
      
     }
     
 .section_eight div .icon2{
-    margin-top: 1px;
-  margin-right: -68px;
+    margin-top: 100px;
+  margin-right: 0px;
   height: 60px;
  
 }
-
 
 /****** Footer *********/
 
 .footer{
     margin-top: 50px;
-    width: 900px;
+    max-width: 1200px;
 }
 .fmain {
     display: inline-block;
@@ -607,8 +610,6 @@ nav div span{
     line-height: 22px;
     margin-left: 20px;
      
- 
-
 }
 .divfooter2 h3 {
    
@@ -696,9 +697,6 @@ nav div span{
    
   
 }
-
-
-
 
 
 

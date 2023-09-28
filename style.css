@@ -119,6 +119,7 @@ nav div span{
 
     display: flex;
     margin-top: 40px;
+    
 }
 .first_part ul{
 
@@ -539,6 +540,7 @@ color:  #000000;
 .section_six{
     display: flex;
 column-gap: 30px;
+justify-content: center;
 }
 
 .div6{
