@@ -1,0 +1,128 @@
+nav {
+    padding: 30px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+      
+}
+nav div a {
+
+    padding: 10px 10px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+/***** Section one  ***/
+
+.last_part img{
+    width: 500px;
+    height: 488px;
+    padding-top: 40px;
+    margin-left: 60px;
+    
+}
+
+.last_part .icon1{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    margin-top: 380px;
+    margin-left: -45px;
+     
+}
+.last_part .icon2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 537px;
+   
+}
+.last_part .icon3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 360px;
+    margin-left: 40px; 
+}
+/******** Section Three ******/
+
+.section_three{
+    display: flex;
+    column-gap: 35px;
+    text-align: center;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+
+/****** Section eight ******/
+
+.section_eight{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.section_eight div{
+    height: 400px;
+    width: 900px;
+    background: #F7FAFE;
+}
+
+.section_eight h1 {
+    width: 1024px;
+    height: 176px;
+    left: 208px;
+     
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 88px;
+}
+.section_eight button {
+    width: 160px;
+    height: 55px;
+   margin-left: 390px;
+    border-radius: 8px;
+    font-size: 12px;    
+    
+}
+
+.section_eight div .icon3{
+    margin-left: 260px;
+}
+.section_eight div .iconb{
+
+    margin-top:130px ;
+    
+    margin-left: -10px;
+     
+    }
+    
+.section_eight div .icon2{
+    margin-top: 100px;
+  margin-right: -35px;
+  
+}
+
+
+
+
+/****** Footer *********/
+.fmain {
+    position: relative;
+    display: flex;
+   
+}
+
+.fmain div {
+    padding: 40px;
+        
+}
+
+.divfooter1 img {
+    width: 120px;
+    height: 80px;
+    margin-top: px;
+    margin-left: 1px;
+}

@@ -380,7 +380,6 @@ margin-left: 170px;
      
  }
  
-
  .priceheader .spanheader{
     margin-top: 50px;
      
@@ -454,7 +453,6 @@ width: 180px; */
     border-radius: 10px;
     width: 299px;
     height: 716px;
-
 }
 
 .single_price_table h2{
@@ -559,7 +557,7 @@ justify-content: center;
     width: 350px;
     height: 458px;
     border-radius: 8px;
-    margin-left: 350px;
+    margin-left: 300px;
     box-shadow: 0px 10px 20px 0px #29292A12;
     align-items: center;
     justify-content: center;
@@ -803,12 +801,15 @@ color: #969BAB;
 .section_eight{
     display: flex;
     justify-content: center;
-    background: #F7FAFE;
+   
+    margin-top: 50px;
   
 }
 .section_eight div{
     height: 440px;
     width: 1100px;
+    background: #F7FAFE;
+   
 }
 
 .section_eight h1 {
@@ -844,13 +845,13 @@ color: #969BAB;
 
     margin-top:140px ;
     float:left ;
-    margin-left: -125px;
+    margin-left: 0px;
      
     }
     
 .section_eight div .icon2{
-    margin-top: 100px;
-  margin-right: -135px;
+    margin-top: 120px;
+  margin-right: -25px;
   float: right;
 }
 
@@ -866,14 +867,18 @@ color: #969BAB;
 
 
 .fmain {
-    position: relative;
+    position:  relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
+        
+        
    
 }
 
 .fmain div {
-    padding: 80px;
-        
+    padding: 65px;
+    
 }
 
 .divfooter1 img {

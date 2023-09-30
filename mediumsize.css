@@ -540,7 +540,8 @@ nav div span{
 }
 .section_eight div{
     height: 380px;
-    width: 1000px;
+    width: 800px;
+    background: #F7FAFE;
 }
 .section_eight h1 {
     width: 520px;
@@ -555,15 +556,13 @@ nav div span{
 .section_eight button {
     width: 145px;
     height: 45px;
-  margin-left: 380px;
-    /* padding: 12px, 16px, 11px, 16px; */
+   margin-left: 280px;
     border-radius: 8px;
-    font-size: 12px;
-      
+    font-size: 12px;    
     
 }
 .section_eight div .icon3{
-    margin-left: 330px;
+    margin-left: 240px;
 }
 .section_eight div .iconb{
 
