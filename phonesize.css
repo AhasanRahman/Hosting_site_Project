@@ -1,22 +1,22 @@
  
 .main { 
- width: 100%;
+ width: ;
  margin: 0,auto;
   
 }
 
 nav {
-    padding: 15px 0;
+    padding: 15px 8px;
     font-size: 8px;
     display: flex;
     justify-content: space-around;
-    width: 100%; 
+    width: auto; 
 }
 
 nav div a {
 
-    padding: 5px 3px;
-    margin-left: 15px;
+    padding: 5px 2px;
+    margin-left: 10px;
     text-decoration: none;
     font-size: 10px;
     font-weight: 300;
@@ -42,41 +42,43 @@ nav .img2{
 nav div span{
     font-size: 12px;
     font-weight:300;
+    margin-right: 10px;
 }
 /* ******section one******* */
 
 .section_one{
 
-    display: flex;
+    display: block;
     margin-top: 20px;
+    width: 500px;
 }
 .first_part ul li{
-    display: flex;
-    margin-top: 15px;
-    padding: auto;
+    
+    padding: 10px;
     font-weight: 300;
     font-size: 10px;
-    line-height: 15px; 
-    margin-left: 10px;
+    line-height: 15px;    
+    margin: 0 auto;
+    
 }
 
 .first_part h1{
-    width:auto ;
-    height: auto;
-    margin-top: 30px;
-    font-size: 30px;
+    width: 370px;
+    height: 70px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 600; 
-    margin-left: 10px;
+    padding-left: 15px
+    
 }
 .first_part p{
-    width: auto;
-    height: auto;
-    font-size: 12px;
+    width: 300px;
+    height: 50px;
+    font-size: 10px;
     font-weight: 200;
     line-height: 15px;
-    margin-top: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
+      
 }
 .btn1 {
     min-width: 80px;
@@ -84,8 +86,8 @@ nav div span{
     font-size: 10px;
     font-weight: 200;
     margin-top: 40px;
-    gap: 5px;
-    margin-left: 10px;
+    margin-left: 60px;
+
      
 }
 .btn2 {
@@ -101,7 +103,9 @@ nav div span{
     width: 255px;
     height: 250px;
     padding-top: 20px;
-    margin-left: 80px;
+    margin-left: 60px;
+
+
     
 }
 .last_part .icon1{
@@ -109,7 +113,7 @@ nav div span{
     width: 30px;
     height: 30px;
     margin-top: 200px;
-    margin-left: -30px;  
+    margin-left: -18px;  
    
 }
 .last_part .icon2{
@@ -117,7 +121,7 @@ nav div span{
     width: 35px;
     height: 35px;
     margin-top: 20px;
-    margin-left: 310px;
+    margin-left: 290px;
  
 }
 .last_part .icon3{
@@ -125,10 +129,13 @@ nav div span{
     width: 30px;
     height: 30px;
     margin-top: 170px;
-    margin-left: 70px; 
+    margin-left: 50px; 
 }
 
 /* ******section two**** */
+.section_two{
+    display: block;
+}
 
 .section_two .left h2{
 width: 300px;
@@ -137,53 +144,59 @@ font-weight: 600;
 font-size: 24px;
 line-height: 30px;
 padding-top: 40px;
- margin-left: 10px;
+ margin: 0 auto;
 }
 .section_two .left p{
     width: 250px;
-    margin-top: 15px;
     height: 114px;
     font-size: 12px;
     font-weight: 170;
     line-height: 16px;
-    margin-left: 10px;
+    margin: 0 auto;
     
 }
 .section_two .right img{
-    width: 60px;
+    width: 45px;
     height: 22px;
     padding-top: 30px;
-    padding-left: 38px;
+    padding-left: 30px;
+    margin:  0 auto;
 }
 
 /* ******section three **** */
 
 .section_three{
-    display: flex;
-    column-gap: 0px;
-    text-align: center;
-    justify-content: center;
-    padding-left: 0px;
-    padding-top:15px;
+    display: block;
+    
+    justify-content:  center;
+    padding-left: 30px;
+    padding-top:20px;
+    
+}
+.section_three img{
+    margin-top: 50px;
+    
 }
 
 .section_three div h2{
     width: 130px;
     height: 20px;
-    
+    margin-top: 0px;
     font-weight: 300;
     font-size: 12px;
     line-height: 20px;
+    margin: 0 auto;
     
 }
 .section_three div p{
-    margin-top: 30px;
+    margin: top 60px;
     width: 122px;
     height: 42px;
     font-weight: 150;
     font-size: 10px;
     line-height: 10px;
-    margin-left: 10px;
+     
+    margin: 0 auto;
      
 }
  
@@ -192,84 +205,120 @@ padding-top: 40px;
 .section_four{
     display: flex;
     justify-content: center;
+    
 }
 .section_four  h2{
-    text-align: center;
     width: 400px;
-    height: 80px;
-    
-    margin-left: 120px;
+    height: 80px; 
+    margin-left: 100px;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
-    margin-top: 60px;
+    margin-top: 50px;
         
 }
 .section_four div p{
-    width: 464px;
+    width: 400px;
     height: 25px;
     
-    font-weight: 200;
+    font-weight: 150;
     font-size: 18px;
     line-height: 25px;
     padding-top: 30px;
-    margin-left: 140px;
+    margin-left: 120px;
     padding: 20px;
     
 }
- .spanheader {
+.section_four div .spanheader {
+    width: 99px;
     height: 25px;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 400; 
-    margin-top: 250px;
-    margin-left: 170px;
     
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    
+    margin-top: 250px;
+    margin-left:150px;
+    
+    }
+    .discount{
+        height: 20px;
+        width: 5px;
+
     }
     .priceheader2 ul li{
         margin-top: 100px;
-        padding: 0 80px;
+        padding: 0 10px;
         width: 53px;
         height: 40px;
         font-weight: 300px;
         font-size: 20px;
         line-height: 40px;
-        margin-left: 50px;
+        margin-left: 30px;
+        
         
     }
-    .btn{
-        height: 15px;
-        width: 10px;
-        border-radius: 20px;
+    .spanheader .btn {
+        width: 63px;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 73px;
+        background:#B00000 ;
+        border: none;
+        cursor: pointer;
         
-     }
+    }
      .btn span{
     
         display: block;
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
         border-radius: 50%;
         margin-left: 5px;   
          
      }
+     .priceheader2 ul li{
+        display: inline-block;
+        margin-top: 70px;
+        padding: 0 40px;
+        width: 0px;
+        height: 40px;
+        font-weight: 300px;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        margin-left: 100px;
+        
+    }
+    
     .priceheader2 ul {
-        border-bottom: 2px solid;
-        border-image:   linear-gradient(to right,  #B00000 50%, #E5E5E5 50%  )2;
+        border-bottom: 1px solid;
+        border-image:   linear-gradient(to right,  #B00000 50%, #E5E5E5 30%  )2;
      
     }
 
     /* *******section five***** */
 
     .section_five{
-        display: flex;
-        column-gap: 10px;
+        display: block;
         margin-top: 20px;
-        justify-content: center;
+        margin-left: 70px;
+        justify-content:;
+        align-items: center;
+
+        
+        
+         
+    }
+    .single_price_table {
+      
+        margin: 15px auto;
+       
     }
     .single_price_table{
         border:1px solid #ebebeb;
         border-radius: 10px;
-        width: 160px;
+        width: 220px;
         height: 500px;
     
     }
@@ -337,15 +386,16 @@ padding-top: 40px;
 
     /****** Section six ******/
     .section_six{
-        display: flex;
+        display: block;
     column-gap: 2px;
-    justify-content: center;
+    justify-content: ;
     }
     .div6child1{
-        width: Fixed (245px);
+        /* width: Fixed (245px); */
         height: Hug (100px);
          margin-top: px;
-        margin-left: 20px;
+        margin-left: 90px;
+        width: 300px;
          
     }
     .div6child1 img{
@@ -369,16 +419,17 @@ padding-top: 40px;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    margin-left: 40px;
+    margin-left: 37px;
     margin-top: 15px;
     
     
     }
     .div6child2{
         width: 250px;
+        /* width: 250px; */
         height: 300px;
         border-radius: 8px;
-        margin-left: 30px;
+        margin-left: 90px;
         box-shadow: 0px 10px 20px 0px #29292A12;
     }
     .div6child2 .img2{
@@ -420,18 +471,21 @@ padding-top: 40px;
     .div7{
     
         margin-top: 40px;
+        margin-left: 90px;
     
     }
     .div7child1{
         box-shadow: 0px 10px 20px 0px #29292A12;
-        width:245px ;
+        /* width:245px ; */
+        width: 250px;
         height: 285px;
         border-radius: 8px;
         
     }
     .div7child2{
         box-shadow: 0px 10px 20px 0px #29292A12;
-        width:200px;
+        /* width:200px; */
+        width: 200px;
         height: 276px;
         border-radius: 8px;
         margin-top: 20px;
@@ -514,18 +568,22 @@ padding-top: 40px;
  /****** Section seven ******/
 
 .section_seven{
-    display: flex;
+    display: block;
     margin-top: 30px;
+    
 }
 .divchild1 {
-    width: 280px;
+    /* width: 330px; */
     height: 170px;
+    width: 500px;
+    
    
 }
 
 .divchild2 {
-    width: 300px;
+    /* width: 330px; */
     height: 170px;
+    width: 400px;
      
 }
 
@@ -535,7 +593,7 @@ padding-top: 40px;
     font-size: 12px;
     font-weight:800;
     line-height: 20px;
-    margin-left: 20px;
+   margin: 0 auto;
 }
 
 .divchild1 p {
@@ -544,57 +602,61 @@ padding-top: 40px;
     font-size: 12px;
     font-weight: 400;
     line-height: 22px;
-    margin-left: 20px;
+    margin: 0 auto;
 }
 .divchild2 img {
-    margin-left: 10px;
-    height:70px ;
+   
+    height:50px ;
     width:80px ;
+   
 }
 
 /****** Section eight ******/
 .section_eight{
+    width: 380px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
   
 }
 .section_eight div{
     height: 270px;
-    width: 500px;
+    width: 320px;
     background: #F7FAFE;
 }
 .section_eight h1 {
-    width: 400px;
-    height: 176px;
-    font-size: 20px;
+    width: 300px;
+    height: 146px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 44px;
     margin: 0 auto;
    
 }
 .section_eight button {
-    width: 108px;
+    width: 90px;
     height: 28px;
     margin-top: 0px;
-    margin-left: 120px;
+    margin-left: 70px;
     border-radius: 8px;
     font-size: 10px;
      
     
 }
 .section_eight div .icon3{
-    margin-left: 160px;
+    margin-left: 150px;
 }
 .section_eight div .iconb{
 
     margin-top:15px ;                                                                                                                                                                                                                                                                                             
-    margin-left: 32px;
+    margin-left: 0px;
      
     }
     
 .section_eight div .icon2{
     margin-top: 1px;
-  margin-right: -28px;
+   margin-left: 0px;
   height: 60px;
  
 }
@@ -603,7 +665,7 @@ padding-top: 40px;
 
 .footer{
     margin-top: 50px;
-    width: 600px;
+    width: 500px;
 }
 .fmain {
     display: block;
@@ -613,13 +675,13 @@ padding-top: 40px;
      
 }
 .fmain div {
-    padding: 20px;
+    padding: 15px;
          
 }
 .divfooter1 img {  
-    width: 90px;
-    height: 70px;
-    margin-left:180px;
+    width: 80px;
+    height: 60px;
+    margin-left:150px;
 }
 .divfooter1 p {
     width: 196px;
@@ -628,7 +690,6 @@ padding-top: 40px;
     font-weight: 400;
     line-height: 22px;
     margin: 0 auto;
- 
 
 }
 .divfooter2 h3 {
@@ -637,7 +698,8 @@ padding-top: 40px;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    margin-left: 220px;
+    margin-left: 170px;
+  
   }
 
 .divfooter2 p {
@@ -654,7 +716,7 @@ padding-top: 40px;
     font-size: 12px;
     font-weight: 700;
     line-height: 24px;
-    margin-left: 220px;
+   margin-left: 160px;
      
      
 }
@@ -665,7 +727,7 @@ padding-top: 40px;
     font-size: 12px;
     font-weight: 400;
     line-height: 32px;
-    margin-left: 220px;
+    margin:  0 auto;
   
 }
 .divfooter4 h4 {
@@ -674,7 +736,7 @@ padding-top: 40px;
     font-size: 12px;
     font-weight: 700;
     line-height: 24px; 
-    margin-left: 220px;
+    margin-left: 165px;
 }
 
 .divfooter4 p {
@@ -693,7 +755,8 @@ padding-top: 40px;
     font-size: 12px;
     font-weight: 700;
     line-height: 24px;
-    margin-left: 220px;
+    margin-left: 170px;
+     
 }
 
 .divfooter5 p {
@@ -705,7 +768,6 @@ padding-top: 40px;
     margin: 0 auto;
 }
 .lastdiv{
-    width: 400px;
     height: 32px;
     font-weight: 400;
     font-size: 12px;
